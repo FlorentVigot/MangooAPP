@@ -22,7 +22,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child:Stack(
           children: [
             MongooTitle(),
-            //MongooImage(),
+
             //SaladeImage(),
             //SaladeTitle(),
           ],
@@ -51,7 +51,7 @@ class MongooTitle extends StatelessWidget {
               fontWeight: FontWeight.w700,
               fontSize: 30,
             ),
-            textAlign: TextAlign.right,
+            textAlign: TextAlign.center,
       ),
           ),
 
@@ -61,24 +61,61 @@ class MongooTitle extends StatelessWidget {
           Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
             height: 150,
             width: 150,
-            fit: BoxFit.cover,)
-    ],
-    );
-  }
-}
-// Mongoo image
-class MongooImage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
+            fit: BoxFit.cover),
 
-        child: Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
-      height: 150,
-      width: 150,
-      fit: BoxFit.cover,)
+          Padding(
+            padding: const EdgeInsets.all(30.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/0edcc8100457407.5f09133185cbc.jpg',
+                  height: 75,
+                  width: 75,
+                  fit: BoxFit.cover),
+              Spacer(),
+              Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e949e110473417.5fedf49ca4926.jpg',
+                  height: 75,
+                  width: 75,
+                  fit: BoxFit.cover),
+              Spacer(),
+              Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
+                  height: 75,
+                  width: 75,
+                  fit: BoxFit.cover),
+            ],
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(30.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
+                    height: 75,
+                    width: 75,
+                    fit: BoxFit.cover),
+                Center(child: Text('oui'),),
+                Spacer(),
+                Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1775ea124508643.61057df4eab4d.jpg',
+                    height: 75,
+                    width: 75,
+                    fit: BoxFit.cover),
+                Spacer(),
+
+                Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/disp/ced786118234241.60856f09bbaec.jpg',
+                    height: 75,
+                    width: 75,
+                    fit: BoxFit.cover),
+                Center(child: Text('oui'),),
+              ],
+            ),
+          )
+    ],
+
     );
   }
 }
+
 // Salade Title
 class SaladeTitle extends StatelessWidget {
   @override
