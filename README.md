@@ -19,6 +19,6 @@ samples, guidance on mobile development, and a full API reference.
 ### HomePage
 The HomePage present the different salads 
 ### ListPage
+The ListPage present the different food in Mangoo.
 ### FormPage
-The FormPage is a page to make a command. This page is composed of :
-- Differrents fields required.
+The FormPage is a page to make a command.

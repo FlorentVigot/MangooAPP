@@ -48,28 +48,80 @@ class MangooForms extends StatelessWidget {
             ),
           ),
           TextFormField(
+            decoration: const InputDecoration(
+                icon: Icon(Icons.person),
+              labelText: 'Votre nom :'
+            ),
             // The validator receives the text that the user has entered.
             validator: (value) {
               if (value == null || value.isEmpty) {
-                return 'Please enter some text';
+                return 'S\'il vous plait, entrez du texte';
+              }
+
+              return null;
+            },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+                icon: Icon(Icons.add_circle),
+                labelText: 'Ajouter votre base de salade:'
+            ),
+            // The validator receives the text that the user has entered.
+            validator: (value) {
+              if (value == null || value.isEmpty) {
+                return 'S\'il vous plait, entrez du texte';
               }
               return null;
             },
           ),
           TextFormField(
+            decoration: const InputDecoration(
+                icon: Icon(Icons.add_circle),
+                labelText: 'Ajouter vos Ingrédients vert:'
+            ),
             // The validator receives the text that the user has entered.
             validator: (value) {
               if (value == null || value.isEmpty) {
-                return 'Please enter some text';
+                return 'S\'il vous plait, entrez du texte';
               }
               return null;
             },
           ),
           TextFormField(
+            decoration: const InputDecoration(
+                icon: Icon(Icons.add_circle),
+                labelText: 'Ajouter vos Ingrédients bleus:'
+            ),
             // The validator receives the text that the user has entered.
             validator: (value) {
               if (value == null || value.isEmpty) {
-                return 'Please enter some text';
+                return 'S\'il vous plait, entrez du texte';
+              }
+              return null;
+            },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+                icon: Icon(Icons.add_circle),
+                labelText: 'Ajouter votre sauce:'
+            ),
+            // The validator receives the text that the user has entered.
+            validator: (value) {
+              if (value == null || value.isEmpty) {
+                return 'S\'il vous plait, entrez du texte';
+              }
+              return null;
+            },
+          ),
+          TextFormField(
+            decoration: const InputDecoration(
+                icon: Icon(Icons.add_circle),
+                labelText: 'Ajouter un petit plus:'
+            ),
+            // The validator receives the text that the user has entered.
+            validator: (value) {
+              if (value == null || value.isEmpty) {
+                return 'S\'il vous plait, entrez du texte';
               }
               return null;
             },

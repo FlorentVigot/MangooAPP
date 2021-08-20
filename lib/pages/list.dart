@@ -37,7 +37,7 @@ class _ListScreenState extends State<ListScreen> {
                       )
                     ),
                     ListTile(
-                      title: Text('epinard , iceberg, Mâche, Pates , Pâtes & RoquetteQuinoaQuinoa & EpinardsRoquette ,Carotte & Courgette'),
+                      title: Text('Epinard, Iceberg, Mâche, Pates, Pâtes & Roquette, Quinoa, Quinoa & Epinards, Roquette, Carotte & Courgette'),
                     ),
                     const Divider(),
                     ListTile(
@@ -50,7 +50,7 @@ class _ListScreenState extends State<ListScreen> {
                         )
                     ),
                     ListTile(
-                      title: Text('epinard , iceberg, Mâche, Pates , Pâtes & RoquetteQuinoaQuinoa & EpinardsRoquette ,Carotte & Courgette'),
+                      title: Text('Betterave - Carottes - Céleri* - Champignons - Choux rouges - Concombre - Croûtons - Emmental - Fèves - Jambon blanc - Lentilles - Maïs - Mimolette - Mozzarella - Oeuf - Oignons rouges - Pastèque* - Pois chiches* - Pomme - Poulet - Radis* - Salsifis* - Saucisses* - Soja* - Surimi - Tomates'),
                     ),
                     const Divider(),ListTile(
                         title: Text('Choisissez vos ingrédients bleus',
@@ -62,7 +62,10 @@ class _ListScreenState extends State<ListScreen> {
                         )
                     ),
                     ListTile(
-                      title: Text('epinard , iceberg, Mâche, Pates , Pâtes & RoquetteQuinoaQuinoa & EpinardsRoquette ,Carotte & Courgette'),
+                      title: Text('Ananas* - Anchois* - Asperges* - Avocat - Aubergines* - Brocolis* - Cantal - Chorizo - Cœur d\'artichaut* - Cœur de palmier* - Fourme d\'Ambert* - Gésiers - Grana Panado - Jambon cru - Courgettes* - Crevettes - Dinde marinée - Falafel - Feta - Figues* - Lardons - Melon* - Noix* - Oeufs pochés - Pamplemousse* - Pastrami - Poivrons - Thon - Tomates cerises - Tomates séchées'),
+                    ),
+                    ListTile(
+                      title: Text('* = ingrédients susceptibles de changer en fonction des saisons'),
                     ),
                     const Divider(),
                     ListTile(
@@ -75,7 +78,10 @@ class _ListScreenState extends State<ListScreen> {
                         )
                     ),
                     ListTile(
-                      title: Text('epinard , iceberg, Mâche, Pates , Pâtes & RoquetteQuinoaQuinoa & EpinardsRoquette ,Carotte & Courgette'),
+                      title: Text('Vittel, Pure Life, San Pellegrino, Cristaline, Pulco Citron, Appletiser, Minute Maid Orange|Pomme|Tropical, San Pellegrino Citron|Orange|Tropical, Coca-Cola|Coca-cola light|Coca-cola zero, FuzeTea Peche|Mangue',
+                      style: TextStyle(
+                        color: Colors.purple
+                      )),
                     ),
                     const Divider(),
                     ListTile(
@@ -88,8 +94,41 @@ class _ListScreenState extends State<ListScreen> {
                         )
                     ),
                     ListTile(
-                      title: Text('epinard , iceberg, Mâche, Pates , Pâtes & RoquetteQuinoaQuinoa & EpinardsRoquette ,Carotte & Courgette'),
+                      title: Text('Les Fruits',
+                      style: TextStyle(
+                        color: Colors.brown,
+                        fontWeight: FontWeight.w700,
+                        fontSize: 15  ,
+                      ),),
                     ),
+                    ListTile(
+                      title: Text('MANGUE - ananas - KIWi - fraise  melon - figues - pastèque - pomme - orange - pamplemouss - SALADES DE FRUITS'),
+                    ),
+                    ListTile(
+                      title: Text('Les Frais',
+                        style: TextStyle(
+                          color: Colors.brown,
+                          fontWeight: FontWeight.w700,
+                          fontSize: 15  ,
+                        ),),
+                    ),
+                    ListTile(
+                      title: Text('Yaourt grec :framboise - mangue - crème de marron - poire spéculoos - miel noix pommesPANnA COTTA :framboise - coco banane - café'),
+                    ),ListTile(
+                      title: Text('Les Gourmands',
+                        style: TextStyle(
+                          color: Colors.brown,
+                          fontWeight: FontWeight.w700,
+                          fontSize: 15  ,
+                        ),),
+                    ),
+                    ListTile(
+                      title: Text('CRUMBLE FRUITS ROUGEs - FONDANT AU CHOCOLATbrownie & crème anglaise - petits cannelésriz au lait & confiture de lait   '),
+                    ),
+
+
+
+
 
                   ],
                 ),
