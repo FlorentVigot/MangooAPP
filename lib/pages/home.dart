@@ -68,20 +68,51 @@ class MongooTitle extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Column(
+                children:[
+                  Text('Salade Buffalo',
+                  style: TextStyle(
+                    color: Colors.orangeAccent,
+                  ),),
               Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/0edcc8100457407.5f09133185cbc.jpg',
                   height: 75,
                   width: 75,
                   fit: BoxFit.cover),
+                Padding(
+                  padding: const EdgeInsets.all(8.0),
+                  child: Text('jambon - fromage - roquette - sauce césar',
+                  style: TextStyle(
+                    color: Colors.grey,
+                    fontSize: 10,
+
+                  ),),
+                )
+                ]
+
+              ),
               Spacer(),
+              Column(
+                children:[
+                  Text('Salade Rocket',
+                    style: TextStyle(
+                    color: Colors.blueAccent,
+                    ),),
               Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e949e110473417.5fedf49ca4926.jpg',
                   height: 75,
                   width: 75,
                   fit: BoxFit.cover),
-              Spacer(),
-              Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
-                  height: 75,
-                  width: 75,
-                  fit: BoxFit.cover),
+                  Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text('Roquette - fromage - tomate - oignon - grenade',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 10,
+
+                      ),),
+                  )
+                ]
+
+              ),
             ],
             ),
           ),
@@ -90,26 +121,55 @@ class MongooTitle extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
-                    height: 75,
-                    width: 75,
-                    fit: BoxFit.cover),
-                Center(child: Text('oui'),),
-                Spacer(),
-                Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1775ea124508643.61057df4eab4d.jpg',
-                    height: 75,
-                    width: 75,
-                    fit: BoxFit.cover),
-                Spacer(),
+                Column(
+                    children:[
+                      Text('Salade Betterave',
+                        style: TextStyle(
+                          color: Colors.purple,
+                        ),),
+                      Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/0edcc8100457407.5f09133185cbc.jpg',
+                          height: 75,
+                          width: 75,
+                          fit: BoxFit.cover),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Betterave - laitue - tomate - féta',
+                          style: TextStyle(
+                            color: Colors.grey,
+                            fontSize: 10,
 
-                Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/disp/ced786118234241.60856f09bbaec.jpg',
-                    height: 75,
-                    width: 75,
-                    fit: BoxFit.cover),
-                Center(child: Text('oui'),),
+                          ),),
+                      )
+                    ]
+
+                ),
+                Spacer(),
+                Column(
+                    children:[
+                      Text('Salade Méditérrannée',
+                        style: TextStyle(
+                          color: Colors.greenAccent,
+                        ),),
+                      Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e949e110473417.5fedf49ca4926.jpg',
+                          height: 75,
+                          width: 75,
+                          fit: BoxFit.cover),
+                      Padding(
+                        padding: const EdgeInsets.all(8.0),
+                        child: Text('Roquette - tomate - concombre - pate - parmesan - olive',
+                          style: TextStyle(
+                            color: Colors.grey,
+                            fontSize: 10,
+
+                          ),),
+                      )
+                    ]
+
+                ),
               ],
             ),
-          )
+          ),
+
     ],
 
     );
