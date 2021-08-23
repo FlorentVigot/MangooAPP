@@ -77,7 +77,7 @@ class MangooForms extends StatelessWidget {
           TextFormField(
             decoration: const InputDecoration(
                 icon: Icon(Icons.add_circle),
-                labelText: 'Ajouter vos Ingrédients vert:'
+                labelText: 'Ajouter vos Ingrédients verts:'
             ),
             // The validator receives the text that the user has entered.
             validator: (value) {

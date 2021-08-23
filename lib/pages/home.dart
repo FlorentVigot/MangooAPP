@@ -58,9 +58,9 @@ class MongooTitle extends StatelessWidget {
     ),
 
     ),
-          Image.network('https://as2.ftcdn.net/v2/jpg/00/53/59/03/500_F_53590332_GktsdggabKrEv4a3URfSalFHofBoFOqL.jpg',
+          Image.network('https://static.wixstatic.com/media/108949_682c9b95fc1d49d6bdd1634901957766~mv2.png/v1/fill/w_340,h_116,al_c,q_85,usm_0.66_1.00_0.01/Logo%20Mongoo%20Pictos%202017',
             height: 150,
-            width: 150,
+            width: 450,
             fit: BoxFit.cover),
 
           Padding(
@@ -80,7 +80,7 @@ class MongooTitle extends StatelessWidget {
                   fit: BoxFit.cover),
                 Padding(
                   padding: const EdgeInsets.all(8.0),
-                  child: Text('jambon - fromage - roquette - sauce césar',
+                  child: Text('Jambon - fromage - roquette - sauce césar',
                   style: TextStyle(
                     color: Colors.grey,
                     fontSize: 10,
@@ -97,7 +97,7 @@ class MongooTitle extends StatelessWidget {
                     style: TextStyle(
                     color: Colors.blueAccent,
                     ),),
-              Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/4e949e110473417.5fedf49ca4926.jpg',
+              Image.network('https://media-cdn.tripadvisor.com/media/photo-s/04/3b/f8/0a/mongoo.jpg',
                   height: 75,
                   width: 75,
                   fit: BoxFit.cover),
@@ -127,7 +127,7 @@ class MongooTitle extends StatelessWidget {
                         style: TextStyle(
                           color: Colors.purple,
                         ),),
-                      Image.network('https://mir-s3-cdn-cf.behance.net/project_modules/fs/0edcc8100457407.5f09133185cbc.jpg',
+                      Image.network('https://media-cdn.tripadvisor.com/media/photo-s/04/3b/f7/d2/mongoo.jpg',
                           height: 75,
                           width: 75,
                           fit: BoxFit.cover),

@@ -52,6 +52,9 @@ class _ListScreenState extends State<ListScreen> {
                     ListTile(
                       title: Text('Betterave - Carottes - Céleri* - Champignons - Choux rouges - Concombre - Croûtons - Emmental - Fèves - Jambon blanc - Lentilles - Maïs - Mimolette - Mozzarella - Oeuf - Oignons rouges - Pastèque* - Pois chiches* - Pomme - Poulet - Radis* - Salsifis* - Saucisses* - Soja* - Surimi - Tomates'),
                     ),
+                    ListTile(
+                      title: Text('* = ingrédients susceptibles de changer en fonction des saisons'),
+                    ),
                     const Divider(),ListTile(
                         title: Text('Choisissez vos ingrédients bleus',
                           style: TextStyle(
@@ -102,7 +105,7 @@ class _ListScreenState extends State<ListScreen> {
                       ),),
                     ),
                     ListTile(
-                      title: Text('MANGUE - ananas - KIWi - fraise  melon - figues - pastèque - pomme - orange - pamplemouss - SALADES DE FRUITS'),
+                      title: Text('Mangue - Ananas - Kiwi - Fraise - Melon - Figues - Pastèque - Pomme - Orange - Pamplemousse - Salades de fruits'),
                     ),
                     ListTile(
                       title: Text('Les Frais',
@@ -113,7 +116,7 @@ class _ListScreenState extends State<ListScreen> {
                         ),),
                     ),
                     ListTile(
-                      title: Text('Yaourt grec :framboise - mangue - crème de marron - poire spéculoos - miel noix pommesPANnA COTTA :framboise - coco banane - café'),
+                      title: Text('Yaourt grec :framboise - mangue - crème de marron - poire spéculoos - miel noix pommes . Panna Cotta :framboise - coco - banane - café'),
                     ),ListTile(
                       title: Text('Les Gourmands',
                         style: TextStyle(
@@ -123,7 +126,7 @@ class _ListScreenState extends State<ListScreen> {
                         ),),
                     ),
                     ListTile(
-                      title: Text('CRUMBLE FRUITS ROUGEs - FONDANT AU CHOCOLATbrownie & crème anglaise - petits cannelésriz au lait & confiture de lait   '),
+                      title: Text('Crumble fruits rouges - Fondant au chocolats - Brownie & Crème anglaise - Petits cannelés - Riz au lait & confiture de lait   '),
                     ),
 
 
